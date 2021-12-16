@@ -11,7 +11,7 @@ b/a                 =2.5
 b//a                =2
 b**a                =25
 b%a                 =1
-a+B                 =7
+a+B                 =type error
 type(42)            =int
 type(42.0)          =float
 type("C3PO")        =str
@@ -40,7 +40,7 @@ a=27
 5.) What is the mistake in the following code so it will calculate the average. Fix it!
 
 x,y,z =(3,4,5)
-ave = x+y+z/3
+ave = (x+y+z)/3
 ave = 4
 
 
